@@ -1,4 +1,5 @@
 # Fitness Tracker (Java + Maven + JUnit 5)
+![Maven CI](https://github.com/KeiraHancock/FitnessTracker/actions/workflows/maven.yml/badge.svg)
 
 A small OOP fitness tracker:
 - Log workouts (type, minutes, calories, date)
