@@ -26,3 +26,16 @@ pom.xml
 - Immutability: Workout is immutable; prevents accidental mutation.
 - Validation: Constructors & setters validate inputs (fail fast).
 - Single Responsibility: FitnessTracker handles domain logic; Workout is a value object.
+
+## CLI usage example
+
+```text
+$ java -cp target/fitness-tracker-1.0.0.jar com.example.fitness.Main
+Fitness Tracker (type 'q' to quit)
+Add workout (type minutes calories), or 'q': 30 250
+Logged workout: 30 min, 250 cal
+Add workout (type minutes calories), or 'q': 45 320
+Logged workout: 45 min, 320 cal
+Add workout (type minutes calories), or 'q': q
+Goodbye!
+```
